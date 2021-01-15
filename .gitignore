@@ -1,0 +1,10 @@
+*.pyc
+.DS_Store
+Untitled*.ipynb
+.ipynb_checkpoints
+cache.sqlite
+*.csv
+*.jsonl
+*.zip
+.sync*
+.owncloud*
