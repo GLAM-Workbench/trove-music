@@ -1,0 +1,12 @@
+jupyterlab
+pandas
+requests
+altair
+tqdm
+requests-cache
+# To deal with https://github.com/jupyter-server/jupyter_server/issues/1038
+jupyter-server<2.0.0
+ipywidgets
+wordcloud
+nltk
+python-dotenv
