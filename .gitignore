@@ -8,3 +8,8 @@ cache.sqlite
 *.zip
 .sync*
 .owncloud*
+.python-version
+*.sqlite
+.env
+data2
+data
