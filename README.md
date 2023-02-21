@@ -75,7 +75,7 @@ See [Getting started](https://glam-workbench.net/getting-started/#using-python-o
 
 ## Cite as
 
-See the GLAM Workbench or [Zenodo](https://doi.org/10.5281/zenodo.3549426) for up-to-date citation details.
+See the GLAM Workbench or [Zenodo](https://doi.org/10.5281/zenodo.7659567) for up-to-date citation details.
 
 ----
 
