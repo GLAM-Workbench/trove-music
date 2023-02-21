@@ -4,7 +4,7 @@ Current version: [v1.0.0](https://github.com/GLAM-Workbench/trove-music/releases
 
 Jupyter notebooks to work with data from Trove's music and sound zone.
 
-See the [Trove map section](https://glam-workbench.net/trove-music/) of the GLAM Workbench for more details.
+See the [Trove music and sound section](https://glam-workbench.net/trove-music/) of the GLAM Workbench for more details.
 
 ## Notebook topics
 
