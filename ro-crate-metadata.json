@@ -67,8 +67,8 @@
             "license": {
                 "@id": "https://spdx.org/licenses/MIT"
             },
-            "name": "trove-oral-histories",
-            "url": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "name": "trove-music",
+            "url": "https://github.com/GLAM-Workbench/trove-music",
             "version": "v2.0.0"
         },
         {
@@ -95,7 +95,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
@@ -117,7 +117,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
@@ -139,7 +139,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
@@ -156,8 +156,8 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 14796658,
-            "dateModified": "2023-11-16",
+            "contentSize": 15118184,
+            "dateModified": "2023-12-15",
             "encodingFormat": "text/csv",
             "name": "trove-oral-histories.csv",
             "sdDatePublished": "2023-12-15"
@@ -168,8 +168,8 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 86536,
-            "dateModified": "2023-11-18",
+            "contentSize": 86036,
+            "dateModified": "2023-12-15",
             "encodingFormat": "text/plain",
             "name": "trove-oral-history-series.txt",
             "sdDatePublished": "2023-12-15"
@@ -304,7 +304,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
@@ -326,7 +326,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
@@ -370,7 +370,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2023-11-16",
+            "endDate": "2023-12-15",
             "instrument": {
                 "@id": "harvest-oral-histories.ipynb"
             },
@@ -404,7 +404,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2023-11-18",
+            "endDate": "2023-12-15",
             "instrument": {
                 "@id": "save-series.ipynb"
             },
