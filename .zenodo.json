@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/trove-music/tree/v1.0.0",
+      "identifier": "https://github.com/trove-music/tree/v2.0.0",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,14 +22,14 @@
       "resource_type": "other"
     }
   ],
-  "version": "v1.0.0",
+  "version": "v2.0.0",
   "upload_type": "software",
   "keywords": [
     "digital humanities",
     "Jupyter",
     "GLAM Workbench"
   ],
-  "publication_date": "2023-02-21",
+  "publication_date": "2023-12-15",
   "creators": [
     {
       "name": "Sherratt, Tim",
@@ -37,5 +37,5 @@
     }
   ],
   "access_right": "open",
-  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-music/releases/tag/v1.0.0\">v1.0.0</a></p> <p>Jupyter notebooks to work with data from Trove’s music and sound zone.</p> <p>See the <a href=\"https://glam-workbench.net/trove-music/\">Trove music and sound section</a> of the GLAM Workbench for more details.</p> <h2 id=\"notebook-topics\">Notebook topics</h2> <ul> <li><p>Harvest ABC Radio National records from Trove – harvests, cleans, and saves all the available Radio National data from Trove.</p></li> <li><p>Exploring ABC Radio National metadata – shows a few ways you can start to explore the ABC Radio National metadata.</p></li> </ul> <h2 id=\"cite-as\">Cite as</h2> <p>See the GLAM Workbench or <a href=\"https://doi.org/10.5281/zenodo.3549426\">Zenodo</a> for up-to-date citation details.</p> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.net/\">GLAM Workbench</a>.</p>"
+  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-music/releases/tag/v2.0.0\">v2.0.0</a></p> <p>Jupyter notebooks to work with data from Trove’s music and sound zone.</p> <p>See the <a href=\"https://glam-workbench.net/trove-music/\">Trove music, sound, and oral histories section</a> of the GLAM Workbench for more details.</p> <h2 id=\"notebook-topics\">Notebook topics</h2> <ul> <li><p>Harvest oral histories metadata – harvests metadata describing the NLA’s oral history collection from Trove and saves the results as a CSV file.</p></li> <li><p>Save a list of oral history collections – extracts a list of series from metadata describing oral histories held by the NLA and described in Trove.</p></li> <li><p>Download summaries and transcripts from oral histories – downloads all the available transcripts and summaries from digitised oral histories available in Trove.</p></li> <li><p>Harvest ABC Radio National records from Trove – harvests, cleans, and saves all the available Radio National data from Trove.</p></li> <li><p>Exploring ABC Radio National metadata – shows a few ways you can start to explore the ABC Radio National metadata.</p></li> </ul> <h2 id=\"cite-as\">Cite as</h2> <p>See the GLAM Workbench or <a href=\"https://doi.org/10.5281/zenodo.7659567\">Zenodo</a> for up-to-date citation details.</p> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.net/\">GLAM Workbench</a>.</p>"
 }

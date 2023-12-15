@@ -1,12 +1,18 @@
-# Trove music and sound
+# Trove music, sound, and oral histories
 
-Current version: [v1.0.0](https://github.com/GLAM-Workbench/trove-music/releases/tag/v1.0.0)
+Current version: [v2.0.0](https://github.com/GLAM-Workbench/trove-music/releases/tag/v2.0.0)
 
 Jupyter notebooks to work with data from Trove's music and sound zone.
 
-See the [Trove music and sound section](https://glam-workbench.net/trove-music/) of the GLAM Workbench for more details.
+See the [Trove music, sound, and oral histories section](https://glam-workbench.net/trove-music/) of the GLAM Workbench for more details.
 
 ## Notebook topics
+
+* [Harvest oral histories metadata](harvest-oral-histories.ipynb) – harvests metadata describing the NLA's oral history collection from Trove and saves the results as a CSV file.
+
+* [Save a list of oral history collections](save-series.ipynb) – extracts a list of series from metadata describing oral histories held by the NLA and described in Trove.
+
+* [Download summaries and transcripts from oral histories](download-transcripts.ipynb) – downloads all the available transcripts and summaries from digitised oral histories available in Trove.
 
 * [Harvest ABC Radio National records from Trove](harvest-abcrn.ipynb) – harvests, cleans, and saves all the available Radio National data from Trove.
 

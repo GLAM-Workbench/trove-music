@@ -1,0 +1,494 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "0000-0001-7956-4498"
+                }
+            ],
+            "datePublished": "2023-12-15",
+            "description": "Tools for working with sound and oral history resources from Trove",
+            "hasPart": [
+                {
+                    "@id": "harvest-oral-histories.ipynb"
+                },
+                {
+                    "@id": "download-transcripts.ipynb"
+                },
+                {
+                    "@id": "save-series.ipynb"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-history-series.txt"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-metadata.ndjson"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-am-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-breakfast-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-drive-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-latenight-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-lifematters-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-pm-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-scienceshow-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-worldtoday-metadata.csv"
+                },
+                {
+                    "@id": "harvest-abcrn.ipynb"
+                },
+                {
+                    "@id": "explore-abcrn-data.ipynb"
+                }
+            ],
+            "license": {
+                "@id": "https://spdx.org/licenses/MIT"
+            },
+            "name": "trove-oral-histories",
+            "url": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "version": "v2.0.0"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        },
+        {
+            "@id": "harvest-oral-histories.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "Many of the National Library of Australia's oral histories are being made available online. This notebook harvests metadata describing the oral history collection from Trove and saves the results as a CSV file for further exploration.",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "Harvest oral histories metadata",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            }
+        },
+        {
+            "@id": "download-transcripts.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook downloads all the available transcripts and summaries from digitised oral histories available in Trove. It uses a pre-harvested dataset of oral histories to obtain a list of `nla.obj` identifiers. It then constructs a download url using each identifier, and downloads the file.",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "Download summaries and transcripts from oral histories",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            }
+        },
+        {
+            "@id": "save-series.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook extracts a list of series from a pre-harvested dataset of oral histories held by the NLA and described in Trove, and saves them to a text file.",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "Save a list of oral history collections",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            }
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 14796658,
+            "dateModified": "2023-11-16",
+            "encodingFormat": "text/csv",
+            "name": "trove-oral-histories.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-history-series.txt",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 86536,
+            "dateModified": "2023-11-18",
+            "encodingFormat": "text/plain",
+            "name": "trove-oral-history-series.txt",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-metadata.ndjson",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 356879730,
+            "dateModified": "2023-12-15",
+            "name": "abcrn-metadata.ndjson",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 226471249,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-am-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 32369669,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-am-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-breakfast-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 44842760,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-breakfast-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-drive-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 13204597,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-drive-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-latenight-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 6557023,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-latenight-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-lifematters-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 6027926,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-lifematters-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-pm-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 29396511,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-pm-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-scienceshow-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 5143090,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-scienceshow-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-worldtoday-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 31106696,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-worldtoday-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "harvest-abcrn.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "Download summaries and transcripts from oral histories",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            }
+        },
+        {
+            "@id": "explore-abcrn-data.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-oral-histories",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook shows a few ways you can start to explore the ABC Radio National metadata harvested from Trove.",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "Exploring ABC Radio National metadata",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "name": "Sherratt, Tim"
+        },
+        {
+            "@id": "https://spdx.org/licenses/MIT",
+            "@type": "CreativeWork",
+            "name": "MIT License",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31012/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.10.12",
+            "url": "https://www.python.org/downloads/release/python-31012/",
+            "version": "3.10.12"
+        },
+        {
+            "@id": "#harvest-oral-histories_run",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-11-16",
+            "instrument": {
+                "@id": "harvest-oral-histories.ipynb"
+            },
+            "name": "Run of notebook: harvest-oral-histories.ipynb",
+            "result": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv"
+                }
+            ]
+        },
+        {
+            "@id": "#download-transcripts_run",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-12-15",
+            "instrument": {
+                "@id": "download-transcripts.ipynb"
+            },
+            "name": "Run of notebook: download-transcripts.ipynb",
+            "object": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv"
+                }
+            ]
+        },
+        {
+            "@id": "#save-series_run",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-11-18",
+            "instrument": {
+                "@id": "save-series.ipynb"
+            },
+            "name": "Run of notebook: save-series.ipynb",
+            "object": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-histories.csv"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-oral-histories-data/blob/main/trove-oral-history-series.txt"
+                }
+            ]
+        },
+        {
+            "@id": "#harvest-abcrn_run",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-12-15",
+            "instrument": {
+                "@id": "harvest-abcrn.ipynb"
+            },
+            "name": "Run of notebook: harvest-abcrn.ipynb",
+            "result": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-metadata.ndjson"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-am-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-breakfast-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-drive-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-latenight-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-lifematters-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-pm-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-scienceshow-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-worldtoday-metadata.csv"
+                }
+            ]
+        },
+        {
+            "@id": "#explore-abcrn-data_run",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-12-15",
+            "instrument": {
+                "@id": "explore-abcrn-data.ipynb"
+            },
+            "name": "Run of notebook: explore-abcrn-data.ipynb",
+            "object": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-abcrn-data/blob/main/abcrn-metadata.csv"
+                }
+            ]
+        },
+        {
+            "@id": "#create_version_v2_0_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-12-15",
+            "name": "Create version v2.0.0"
+        }
+    ]
+}

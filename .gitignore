@@ -13,3 +13,6 @@ cache.sqlite
 .env
 data2
 data
+transcripts
+*.ndjson
+trove-oral-history-series.txt
